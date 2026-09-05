@@ -1,0 +1,812 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>БІТ — Білдінг Інжиніринг Тім | Протипожежний захист під ключ</title>
+<meta name="description" content="Проєктування, монтаж та обслуговування систем пожежогасіння, сигналізації, протидимного захисту та блискавкозахисту. 5+ років досвіду, 20+ об'єктів у Києві.">
+
+<link rel="icon" href="images/logo.png" type="image/png">
+
+<meta property="og:title" content="БІТ — Білдінг Інжиніринг Тім">
+<meta property="og:description" content="Протипожежний захист під ключ: проєктування, монтаж, обслуговування.">
+<meta property="og:image" content="images/top.jpg">
+<meta property="og:type" content="website">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+
+<link rel="preload" as="image" href="images/top.webp" type="image/webp">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "name": "ТОВ «Білдінг Інжиніринг Тім» (БІТ)",
+  "image": "https://example.com/images/top.jpg",
+  "telephone": "+380957713110",
+  "email": "Office.baet@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "вул. Євгена Сверстюка, 21",
+    "addressLocality": "Київ",
+    "addressCountry": "UA"
+  },
+  "url": "https://example.com/",
+  "description": "Проєктування, монтаж та обслуговування систем протипожежного захисту: пожежогасіння, сигналізація, протидимний захист, блискавкозахист.",
+  "areaServed": "UA"
+}
+</script>
+
+<link href="css/aos.css" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div id="scrollProgress"></div>
+
+<header class="site-header" id="siteHeader">
+  <div class="logo-container">
+    <img src="images/logo.png" alt="BE Team">
+    <div class="brand-text">
+      <span class="brand-name">БІТ</span>
+      <span class="brand-tag">Білдінг Інжиніринг Тім</span>
+    </div>
+  </div>
+
+  <nav class="main-nav" id="mainNav">
+    <a href="#about">Про нас</a>
+    <a href="#process">Як ми працюємо</a>
+    <a href="#services">Послуги</a>
+    <a href="#projects">Об'єкти</a>
+    <a href="#gallery">Роботи</a>
+    <a href="#blog">Блог</a>
+    <a href="#clients">Клієнти</a>
+  </nav>
+
+  <div class="header-actions">
+    <a class="header-phone" href="tel:+380957713110">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+      +380 95 771 31 10
+    </a>
+    <button class="contact-button" onclick="document.getElementById('contacts').scrollIntoView({behavior:'smooth'});">
+      Зв'язатися
+    </button>
+    <button class="nav-toggle" id="navToggle" aria-label="Меню" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<main>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-bg hero-bg--top"></div>
+    <div class="container hero-flex">
+      <div class="hero-content">
+        <span class="hero-tag">Київ · Протипожежний захист під ключ</span>
+        <h1>Захищаємо об'єкти України системами, яким <em>довіряють</em></h1>
+        <p class="hero-sub">Повний цикл робіт — від проєктування до пусконаладки та сервісу — для житлових комплексів, торгових мереж і промислових підприємств по всій країні.</p>
+        <div class="hero-actions">
+          <a href="#contacts" class="btn btn-gold" onclick="document.getElementById('contacts').scrollIntoView({behavior:'smooth'}); return false;">Обговорити проєкт</a>
+          <a href="#projects" class="btn btn-ghost" onclick="document.getElementById('projects').scrollIntoView({behavior:'smooth'}); return false;">Наші об'єкти</a>
+        </div>
+      </div>
+    </div>
+    <div class="hero-scroll"><span>Гортайте</span><span class="line"></span></div>
+  </section>
+
+  <!-- MARQUEE TRUST STRIP -->
+  <section class="marquee-section">
+    <div class="marquee-track" id="marqueeTrack">
+      <div class="marquee-set">
+        <picture><source srcset="images/auchan.webp" type="image/webp"><img src="images/auchan.jpg" alt="Auchan Україна" width="500" height="500"></picture>
+        <img src="images/stolitsa.png" alt="Stolitsa Group" width="166" height="70">
+        <img src="images/kotlogaz.png" alt="Котлогаз" width="200" height="200">
+        <span class="mq-text">ЖК Great</span>
+        <span class="mq-text">ЖК Патріотика</span>
+        <span class="mq-text">ROSHEN</span>
+        <span class="mq-text">ЖК H2O</span>
+        <span class="mq-text">ЖК BOSTON</span>
+        <span class="mq-text">ЖК Варшавський</span>
+        <span class="mq-text">ЖК ЕВРИКА</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- TRUST / COUNTERS -->
+  <section class="trust-strip">
+    <div class="counter-grid">
+      <div class="counter-box">
+        <span class="counter" data-target="5">0</span>
+        <p>років досвіду</p>
+      </div>
+      <div class="counter-box">
+        <span class="counter" data-target="20">0</span>
+        <p>виконаних об'єктів</p>
+      </div>
+      <div class="counter-box counter-box--percent">
+        <span class="counter" data-target="100">0</span>
+        <p>сертифіковані інженери</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section class="about" id="about">
+    <div class="about-container">
+      <div class="about-image" data-aos="fade-right">
+        <div class="ring-frame">
+          <picture>
+            <source srcset="images/pro.webp" type="image/webp">
+            <img src="images/pro.jpeg" alt="Каска на фоні систем пожежогасіння" width="1100" height="733" loading="lazy">
+          </picture>
+        </div>
+      </div>
+      <div class="about-text" data-aos="fade-left">
+        <div class="eyebrow">Про нас</div>
+        <h2>Команда, що відповідає за вашу безпеку</h2>
+        <p><strong>ТОВ «БІТ» (Білдінг Інжиніринг Тім)</strong> — це команда сертифікованих інженерів і технічних фахівців, що спеціалізується на повному циклі робіт у сфері протипожежного захисту.</p>
+        <p>Ми проєктуємо, монтуємо та обслуговуємо:</p>
+        <ul class="spec-list">
+          <li>системи пожежогасіння (вода, газ, піна, порошок)</li>
+          <li>пожежну сигналізацію та оповіщення</li>
+          <li>протидимний захист та вентиляцію</li>
+          <li>блискавкозахист, автоматику й диспетчеризацію</li>
+        </ul>
+        <p>Ми маємо десятки реалізованих об'єктів — від житлових комплексів до торгових центрів та промислових підприємств. Наша мета — створити безпечне середовище для людей і бізнесу, працюючи відповідно до чинних норм ДБН та гарантуючи якість кожного етапу — від креслень до пусконаладки.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY US -->
+  <section class="why-us">
+    <div class="section-head" data-aos="fade-up">
+      <div class="eyebrow">Переваги</div>
+      <h2>Чому обирають нас</h2>
+    </div>
+    <div class="why-grid">
+      <div class="why-item" data-aos="fade-up">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3.5 2"/></svg>
+        </div>
+        <h3>5+ років досвіду</h3>
+        <p>Багаторічна практика у проєктуванні та реалізації протипожежних рішень будь-якої складності.</p>
+      </div>
+      <div class="why-item" data-aos="fade-up" data-aos-delay="80">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 21V9l8-5 8 5v12"/><path d="M9 21v-7h6v7"/></svg>
+        </div>
+        <h3>20+ виконаних об'єктів</h3>
+        <p>Від житлових комплексів до стратегічних промислових підприємств — наш досвід говорить сам за себе.</p>
+      </div>
+      <div class="why-item" data-aos="fade-up" data-aos-delay="160">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M12 3l7 3v6c0 4.5-3 7.5-7 9-4-1.5-7-4.5-7-9V6l7-3z"/></svg>
+        </div>
+        <h3>Сертифіковані інженери</h3>
+        <p>Усі наші спеціалісти мають необхідну кваліфікацію та постійно підвищують рівень.</p>
+      </div>
+      <div class="why-item" data-aos="fade-up" data-aos-delay="240">
+        <div class="why-icon">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 12l5 5L20 6"/></svg>
+        </div>
+        <h3>Гарантія якості</h3>
+        <p>Працюємо згідно з ДБН, дотримуємось нормативів та надаємо гарантію на кожен реалізований об'єкт.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROCESS -->
+  <section class="process" id="process">
+    <div class="section-head" data-aos="fade-up">
+      <div class="eyebrow on-dark">Робочий процес</div>
+      <h2 style="color:var(--white)">Як ми працюємо</h2>
+    </div>
+    <div class="process-grid">
+      <div class="process-step" data-aos="fade-up">
+        <div class="process-num">01</div>
+        <h3>Консультація та обстеження</h3>
+        <p>Аналізуємо об'єкт: архітектурні особливості, комунікації та потенційні ризики.</p>
+      </div>
+      <div class="process-step" data-aos="fade-up" data-aos-delay="80">
+        <div class="process-num">02</div>
+        <h3>Проєкт і технічне завдання</h3>
+        <p>Розробляємо індивідуальний проєкт, підбираємо обладнання та схеми систем.</p>
+      </div>
+      <div class="process-step" data-aos="fade-up" data-aos-delay="160">
+        <div class="process-num">03</div>
+        <h3>Узгодження</h3>
+        <p>Погоджуємо рішення із замовником та відповідними державними органами.</p>
+      </div>
+      <div class="process-step" data-aos="fade-up" data-aos-delay="240">
+        <div class="process-num">04</div>
+        <h3>Монтаж обладнання</h3>
+        <p>Встановлюємо датчики, насосні станції, трубопроводи та інші елементи систем.</p>
+      </div>
+      <div class="process-step" data-aos="fade-up" data-aos-delay="320">
+        <div class="process-num">05</div>
+        <h3>Пусконалагодження</h3>
+        <p>Комплексне тестування системи та перевірка реакції на тестові загрози.</p>
+      </div>
+      <div class="process-step" data-aos="fade-up" data-aos-delay="400">
+        <div class="process-num">06</div>
+        <h3>Здача в експлуатацію</h3>
+        <p>Передаємо документацію, проводимо навчання персоналу та беремо на сервіс.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SPOTLIGHT CASE STUDY -->
+  <section class="spotlight" id="projects">
+    <div class="spotlight-grid">
+      <div class="spotlight-media" data-aos="fade-right">
+        <span class="spotlight-tag">Флагманський об'єкт</span>
+        <picture>
+          <source srcset="images/great.webp" type="image/webp">
+          <img src="images/great.jpg" class="active" alt="ЖК Great" width="1400" height="787">
+        </picture>
+        <picture>
+          <source srcset="images/great1.webp" type="image/webp">
+          <img src="images/great1.jpg" alt="ЖК Great, монтаж систем" width="1400" height="3106">
+        </picture>
+        <picture>
+          <source srcset="images/great2.webp" type="image/webp">
+          <img src="images/great2.jpg" alt="ЖК Great, обладнання" width="1400" height="3106">
+        </picture>
+        <div class="spotlight-dots">
+          <span class="active"></span><span></span><span></span>
+        </div>
+      </div>
+      <div class="spotlight-text" data-aos="fade-left">
+        <div class="eyebrow">Кейс</div>
+        <h2>ЖК Great</h2>
+        <p>Один із найбільших житлових комплексів у портфоліо БІТ — багатосекційна забудова з розвиненою прибудинковою територією, де протипожежний захист охоплює всі вежі комплексу.</p>
+        <div class="spotlight-facts">
+          <div class="fact"><strong>Житловий комплекс</strong><span>Багатосекційна забудова</span></div>
+          <div class="fact"><strong>Повний цикл</strong><span>Проєкт, монтаж, пусконаладка</span></div>
+          <div class="fact"><strong>Пожежогасіння</strong><span>Автоматичні системи</span></div>
+          <div class="fact"><strong>Сигналізація</strong><span>Оповіщення та евакуація</span></div>
+        </div>
+        <a href="#contacts" class="btn btn-dark" onclick="document.getElementById('contacts').scrollIntoView({behavior:'smooth'}); return false;">Обговорити подібний проєкт</a>
+      </div>
+    </div>
+  </section>
+
+  <div class="project-grid" style="max-width: var(--max); margin: 0 auto; padding: 0 1.5rem;">
+
+    <div class="project-item" data-aos="fade-up">
+      <div class="project-media project-slider-wrapper">
+        <button class="slider-btn prev" aria-label="Попереднє фото">‹</button>
+        <div class="project-slider">
+          <picture><source srcset="images/patriot.webp" type="image/webp"><img src="images/patriot.jpg" class="active" alt="ЖК Патріотика" width="901" height="601"></picture>
+          <picture><source srcset="images/patriot1.webp" type="image/webp"><img src="images/patriot1.jpg" alt="ЖК Патріотика, монтаж 1" width="1000" height="2223"></picture>
+          <picture><source srcset="images/patriot2.webp" type="image/webp"><img src="images/patriot2.jpg" alt="ЖК Патріотика, монтаж 2" width="1000" height="2218"></picture>
+        </div>
+        <button class="slider-btn next" aria-label="Наступне фото">›</button>
+        <div class="slider-dots"><span class="active"></span><span></span><span></span></div>
+      </div>
+      <h3>ЖК Патріотика</h3>
+    </div>
+
+    <div class="project-item" data-aos="fade-up" data-aos-delay="80">
+      <div class="project-media project-slider-wrapper">
+        <button class="slider-btn prev" aria-label="Попереднє фото">‹</button>
+        <div class="project-slider">
+          <picture><source srcset="images/roshen.webp" type="image/webp"><img src="images/roshen.jpg" class="active" alt="ROSHEN" width="665" height="499"></picture>
+          <picture><source srcset="images/roshen1.webp" type="image/webp"><img src="images/roshen1.jpg" alt="ROSHEN, монтаж 1" width="1000" height="450"></picture>
+          <picture><source srcset="images/roshen2.webp" type="image/webp"><img src="images/roshen2.jpg" alt="ROSHEN, монтаж 2" width="960" height="1280"></picture>
+        </div>
+        <button class="slider-btn next" aria-label="Наступне фото">›</button>
+        <div class="slider-dots"><span class="active"></span><span></span><span></span></div>
+      </div>
+      <h3>ROSHEN</h3>
+    </div>
+
+    <div class="project-item" data-aos="fade-up" data-aos-delay="160">
+      <div class="project-media"><picture><source srcset="images/h2o.webp" type="image/webp"><img class="active" src="images/h2o.jpg" alt="ЖК H2O" width="1000" height="750"></picture></div>
+      <h3>ЖК H2O</h3>
+    </div>
+
+    <div class="project-item" data-aos="fade-up">
+      <div class="project-media"><picture><source srcset="images/zhk_warszawski.webp" type="image/webp"><img class="active" src="images/zhk_warszawski.jpg" alt="ЖК Варшавський" width="253" height="242"></picture></div>
+      <h3>ЖК Варшавський</h3>
+    </div>
+
+    <div class="project-item" data-aos="fade-up" data-aos-delay="80">
+      <div class="project-media"><picture><source srcset="images/evrika.webp" type="image/webp"><img class="active" src="images/evrika.jpg" alt="ЖК Еврика" width="900" height="598"></picture></div>
+      <h3>ЖК Еврика</h3>
+    </div>
+
+    <div class="project-item" data-aos="fade-up" data-aos-delay="160">
+      <div class="project-media"><picture><source srcset="images/auchan1.webp" type="image/webp"><img class="active" src="images/auchan1.jpg" alt="АШАН" width="650" height="410"></picture></div>
+      <h3>АШАН</h3>
+    </div>
+
+    <div class="project-item" data-aos="fade-up">
+      <div class="project-media"><picture><source srcset="images/boston.webp" type="image/webp"><img class="active" src="images/boston.jpg" alt="ЖК BOSTON" width="1000" height="575"></picture></div>
+      <h3>ЖК BOSTON</h3>
+    </div>
+
+  </div>
+
+  <!-- SERVICES -->
+  <section class="services" id="services">
+    <div class="section-head left" data-aos="fade-up">
+      <div class="eyebrow">Послуги</div>
+      <h2>Що ми робимо</h2>
+    </div>
+    <div class="service-list">
+      <div class="service-row" data-aos="fade-up">
+        <div class="service-num">01</div>
+        <h3>Проєктування систем пожежогасіння</h3>
+        <div class="service-detail">
+          <p>Розробка проєктної документації відповідно до чинних нормативів</p>
+          <p>Водяне пожежогасіння (спринклерне, дренчерне)</p>
+          <p>Пінне, газове, порошкове та аерозольне гасіння</p>
+          <p>Автоматичні установки з урахуванням особливостей об'єкта</p>
+        </div>
+      </div>
+      <div class="service-row" data-aos="fade-up" data-aos-delay="60">
+        <div class="service-num">02</div>
+        <h3>Пожежна сигналізація, оповіщення та евакуація</h3>
+        <div class="service-detail">
+          <p>Системи раннього виявлення загорянь</p>
+          <p>Оповіщення про пожежу та керування евакуацією</p>
+          <p>Система протидимного захисту та димовидалення</p>
+          <p>Інтеграція з системами «розумного будинку» або автоматизації</p>
+        </div>
+      </div>
+      <div class="service-row" data-aos="fade-up" data-aos-delay="120">
+        <div class="service-num">03</div>
+        <h3>Монтаж та технічне обслуговування</h3>
+        <div class="service-detail">
+          <p>Професійний монтаж усіх типів пожежних систем</p>
+          <p>Регламентне та сервісне обслуговування</p>
+          <p>Перевірка працездатності, профілактика, усунення несправностей</p>
+        </div>
+      </div>
+      <div class="service-row" data-aos="fade-up" data-aos-delay="180">
+        <div class="service-num">04</div>
+        <h3>Блискавкозахист, заземлення, диспетчеризація</h3>
+        <div class="service-detail">
+          <p>Зовнішній та внутрішній блискавкозахист</p>
+          <p>Індивідуальні системи заземлення</p>
+          <p>Диспетчеризація та автоматизація інженерних мереж</p>
+        </div>
+      </div>
+      <div class="service-row" data-aos="fade-up" data-aos-delay="240">
+        <div class="service-num">05</div>
+        <h3>Вогнезахисна обробка конструкцій</h3>
+        <div class="service-detail">
+          <p>Просочення деревини, обробка металевих та текстильних матеріалів</p>
+          <p>Герметизація протипожежних проходок</p>
+          <p>Використання сертифікованих вогнезахисних матеріалів</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY -->
+  <section class="gallery-section" id="gallery">
+    <div class="section-head" data-aos="fade-up">
+      <div class="eyebrow">Роботи</div>
+      <h2>Наші роботи</h2>
+    </div>
+    <div class="gallery-grid">
+      <figure class="wide tall" data-aos="fade-up"><picture><source srcset="images/1.webp" type="image/webp"><img src="images/1.jpg" alt="Фото з об'єкта 1" width="600" height="800" loading="lazy"></picture></figure>
+      <figure data-aos="fade-up" data-aos-delay="40"><picture><source srcset="images/2.webp" type="image/webp"><img src="images/2.jpg" alt="Фото з об'єкта 2" width="600" height="800" loading="lazy"></picture></figure>
+      <figure data-aos="fade-up" data-aos-delay="80"><picture><source srcset="images/3.webp" type="image/webp"><img src="images/3.jpg" alt="Фото з об'єкта 3" width="600" height="800" loading="lazy"></picture></figure>
+      <figure class="tall" data-aos="fade-up" data-aos-delay="120"><picture><source srcset="images/4.webp" type="image/webp"><img src="images/4.jpg" alt="Фото з об'єкта 4" width="600" height="800" loading="lazy"></picture></figure>
+      <figure data-aos="fade-up"><picture><source srcset="images/5.webp" type="image/webp"><img src="images/5.jpg" alt="Фото з об'єкта 5" width="600" height="800" loading="lazy"></picture></figure>
+      <figure data-aos="fade-up" data-aos-delay="40"><picture><source srcset="images/6.webp" type="image/webp"><img src="images/6.jpg" alt="Фото з об'єкта 6" width="750" height="562" loading="lazy"></picture></figure>
+      <figure class="wide" data-aos="fade-up" data-aos-delay="80"><picture><source srcset="images/7.webp" type="image/webp"><img src="images/7.jpg" alt="Фото з об'єкта 7" width="750" height="562" loading="lazy"></picture></figure>
+      <figure data-aos="fade-up" data-aos-delay="120"><picture><source srcset="images/8.webp" type="image/webp"><img src="images/8.jpg" alt="Фото з об'єкта 8" width="600" height="800" loading="lazy"></picture></figure>
+      <figure data-aos="fade-up"><picture><source srcset="images/9.webp" type="image/webp"><img src="images/9.jpg" alt="Фото з об'єкта 9" width="600" height="800" loading="lazy"></picture></figure>
+      <figure class="tall" data-aos="fade-up" data-aos-delay="40"><picture><source srcset="images/10.webp" type="image/webp"><img src="images/10.jpg" alt="Фото з об'єкта 10" width="750" height="562" loading="lazy"></picture></figure>
+      <figure data-aos="fade-up" data-aos-delay="80"><picture><source srcset="images/11.webp" type="image/webp"><img src="images/11.jpg" alt="Фото з об'єкта 11" width="750" height="1000" loading="lazy"></picture></figure>
+      <figure data-aos="fade-up" data-aos-delay="120"><picture><source srcset="images/12.webp" type="image/webp"><img src="images/12.jpg" alt="Фото з об'єкта 12" width="750" height="409" loading="lazy"></picture></figure>
+    </div>
+  </section>
+
+  <!-- MISSION -->
+  <section class="mission mission-bg--123">
+    <div class="mission-inner" data-aos="zoom-in">
+      <div class="quote-mark">“</div>
+      <blockquote>Наша справжня місія — не просто монтувати обладнання, а допомагати клієнтам обирати найкращі рішення для їх безпеки.</blockquote>
+    </div>
+  </section>
+
+  <!-- CLIENTS -->
+  <section class="clients-section" id="clients">
+    <div class="section-head" data-aos="fade-up">
+      <div class="eyebrow">Довіра</div>
+      <h2>Наші замовники</h2>
+    </div>
+    <div class="clients-grid">
+      <div class="client-card" data-aos="fade-up">
+        <img src="images/stolitsa.png" alt="Stolitsa Group" width="166" height="70">
+        <p>Stolitsa Group</p>
+      </div>
+      <div class="client-card" data-aos="fade-up" data-aos-delay="40">
+        <img src="images/kotlogaz.png" alt="ТОВ ВКП Котлогаз" width="200" height="200">
+        <p>ТОВ ВКП «Котлогаз»</p>
+      </div>
+      <div class="client-card" data-aos="fade-up" data-aos-delay="80">
+        <picture><source srcset="images/auchan.webp" type="image/webp"><img src="images/auchan.jpg" alt="Auchan Україна" width="500" height="500"></picture>
+        <p>Auchan Україна</p>
+      </div>
+      <div class="client-card text-only" data-aos="fade-up" data-aos-delay="120">
+        <p>ОК «ЖБК “Вижниця-22”»</p>
+      </div>
+      <div class="client-card text-only" data-aos="fade-up" data-aos-delay="160">
+        <p>ОК «Збараж»</p>
+      </div>
+      <div class="client-card text-only" data-aos="fade-up" data-aos-delay="200">
+        <p>ОК «Синевир-23»</p>
+      </div>
+      <div class="client-card text-only" data-aos="fade-up" data-aos-delay="240">
+        <p>ОК «Богуслав»</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CERTIFICATES -->
+  <section class="certs-section">
+    <div class="section-head" data-aos="fade-up">
+      <div class="eyebrow">Документи</div>
+      <h2>Ліцензії та сертифікати</h2>
+      <p class="lede">Офіційні документи, що підтверджують право компанії на виконання протипожежних робіт та відповідність міжнародним стандартам якості.</p>
+    </div>
+    <div class="certs-grid">
+      <a class="cert-doc" href="documents/license-DSNS-87.pdf" target="_blank" rel="noopener" data-aos="fade-up">
+        <div class="cert-doc-thumb">
+          <picture><source srcset="images/cert-license.webp" type="image/webp"><img src="images/cert-license.jpg" alt="Ліцензія ДСНС України №87 від 25.01.2024" loading="lazy"></picture>
+        </div>
+        <div class="cert-doc-body">
+          <p class="cert-doc-label">Ліцензія ДСНС України</p>
+          <p class="cert-doc-meta">№ 87 від 25.01.2024 · монтаж і обслуговування систем пожежогасіння, сигналізації, протидимного захисту, вогнезахист</p>
+          <span class="cert-doc-link">Переглянути PDF <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+
+      <a class="cert-doc" href="documents/iso-9001-certificate.pdf" target="_blank" rel="noopener" data-aos="fade-up" data-aos-delay="80">
+        <div class="cert-doc-thumb">
+          <picture><source srcset="images/cert-iso9001.webp" type="image/webp"><img src="images/cert-iso9001.jpg" alt="Сертифікат ДСТУ ISO 9001:2015" loading="lazy"></picture>
+        </div>
+        <div class="cert-doc-body">
+          <p class="cert-doc-label">Сертифікат ДСТУ ISO 9001:2015</p>
+          <p class="cert-doc-meta">Система управління якістю · чинний до 24.04.2028</p>
+          <span class="cert-doc-link">Переглянути PDF <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+
+      <a class="cert-doc" href="documents/recommendation-letter.pdf" target="_blank" rel="noopener" data-aos="fade-up" data-aos-delay="160">
+        <div class="cert-doc-thumb">
+          <picture><source srcset="images/cert-recommendation.webp" type="image/webp"><img src="images/cert-recommendation.jpg" alt="Рекомендаційний лист від ТОВ «Будеволюція»" loading="lazy"></picture>
+        </div>
+        <div class="cert-doc-body">
+          <p class="cert-doc-label">Рекомендаційний лист</p>
+          <p class="cert-doc-meta">ТОВ «Будеволюція» · партнер з 2023 року</p>
+          <span class="cert-doc-link">Переглянути PDF <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  <!-- BLOG -->
+  <section class="blog-section" id="blog">
+    <div class="section-head left" data-aos="fade-up">
+      <div class="eyebrow">Блог</div>
+      <h2>Корисні матеріали про пожежну безпеку</h2>
+    </div>
+    <div class="blog-grid">
+      <a class="blog-card" href="blog/pozhezhna-signalizatsiya-obov-yazkova.html" data-aos="fade-up">
+        <div class="blog-media"><picture><source srcset="images/6.webp" type="image/webp"><img src="images/6.jpg" alt="Пожежна сигналізація" loading="lazy"></picture></div>
+        <div class="blog-body">
+          <span class="blog-tag">Нормативи</span>
+          <h3>Де в Україні обов'язково потрібна пожежна сигналізація</h3>
+          <p>Розбираємо, які об'єкти підлягають обладнанню автоматичною пожежною сигналізацією та на що звернути увагу власнику.</p>
+          <span class="blog-read">Читати статтю <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+      <a class="blog-card" href="blog/obslugovuvannya-system-pozhezhogasinnya.html" data-aos="fade-up" data-aos-delay="80">
+        <div class="blog-media"><picture><source srcset="images/123.webp" type="image/webp"><img src="images/123.jpg" alt="Обслуговування систем пожежогасіння" loading="lazy"></picture></div>
+        <div class="blog-body">
+          <span class="blog-tag">Обслуговування</span>
+          <h3>Як часто потрібно обслуговувати систему пожежогасіння</h3>
+          <p>Пояснюємо логіку регламентного обслуговування, чому не варто відкладати перевірку та які наслідки має несправна система.</p>
+          <span class="blog-read">Читати статтю <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+      <a class="blog-card" href="blog/vybir-pidryadnyka-protipozhezhni-systemy.html" data-aos="fade-up" data-aos-delay="160">
+        <div class="blog-media"><picture><source srcset="images/great.webp" type="image/webp"><img src="images/great.jpg" alt="Вибір підрядника" loading="lazy"></picture></div>
+        <div class="blog-body">
+          <span class="blog-tag">Поради</span>
+          <h3>Як обрати підрядника для протипожежних систем</h3>
+          <p>П'ять питань, які варто поставити компанії перед підписанням договору на проєктування чи монтаж.</p>
+          <span class="blog-read">Читати статтю <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+        </div>
+      </a>
+    </div>
+    <div style="text-align:center; margin-top: 2.4rem;">
+      <a href="blog/index.html" class="btn btn-dark">Усі статті блогу</a>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section class="contact-block contact-block--simple" id="contacts">
+    <div class="contact-info" data-aos="fade-right">
+      <div class="eyebrow">Контакти</div>
+      <h2>Зв'яжіться з нами напряму</h2>
+      <p class="lede">Телефонуйте або пишіть — інженер БІТ на зв'язку.</p>
+
+      <div class="contact-methods">
+        <div class="contact-method">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg></div>
+          <div><span class="label">Телефон</span><br><a class="value" href="tel:+380957713110">+380 95 771 31 10</a></div>
+        </div>
+        <div class="contact-method">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16v16H4z" opacity="0"/><path d="M22 6l-10 7L2 6"/><rect x="2" y="4" width="20" height="16" rx="2"/></svg></div>
+          <div><span class="label">Email</span><br><a class="value" href="mailto:Office.baet@gmail.com">Office.baet@gmail.com</a></div>
+        </div>
+        <div class="contact-method">
+          <div class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 6-9 12-9 12s-9-6-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg></div>
+          <div><span class="label">Адреса</span><br><span class="value">м. Київ, вул. Євгена Сверстюка, 21</span></div>
+        </div>
+      </div>
+
+      <div class="contact-map">
+        <iframe src="https://www.google.com/maps?q=Київ,+вулиця+Євгена+Сверстюка,+21&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" title="Карта — БІТ, м. Київ, вул. Євгена Сверстюка, 21"></iframe>
+      </div>
+    </div>
+
+    <div class="contact-direct" data-aos="fade-left">
+      <div class="contact-direct-phone">
+        <span class="label">Зателефонуйте прямо зараз</span>
+        <a href="tel:+380957713110" class="contact-direct-number">+380 95 771 31 10</a>
+      </div>
+      <div class="contact-direct-buttons">
+        <a href="https://wa.me/380957713110" target="_blank" rel="noopener" class="btn btn-gold contact-direct-btn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.4 0-.5C11 9.1 10.5 7.9 10.3 7.4c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1 0 1.2.9 2.4 1 2.6.1.2 1.8 2.8 4.4 3.8.6.3 1.1.4 1.5.5.6.2 1.2.2 1.6.1.5-.1 1.6-.6 1.8-1.3.2-.6.2-1.2.2-1.3-.1-.1-.2-.2-.5-.3z"/><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg>
+          Написати в WhatsApp
+        </a>
+        <a href="https://t.me/+380957713110" target="_blank" rel="noopener" class="btn btn-dark contact-direct-btn">
+          <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.5 3.5L2.7 10.9c-1.2.5-1.2 1.2-.2 1.5l4.8 1.5 1.8 5.6c.2.6.4.8.9.8.5 0 .7-.2 1-.5l2.3-2.2 4.8 3.5c.9.5 1.5.2 1.7-.8l3.1-14.4c.3-1.2-.5-1.7-1.4-1.4z"/></svg>
+          Написати в Telegram
+        </a>
+      </div>
+      <p class="contact-direct-note">Працюємо з юридичними особами та девелоперами по всій Україні. Заявки на сайті не приймаємо — тільки прямий зв'язок.</p>
+    </div>
+  </section>
+
+  <!-- CTA BAND -->
+  <section class="cta-band">
+    <div class="cta-inner" data-aos="zoom-in">
+      <h2>Готові захистити свій об'єкт?</h2>
+      <p>Зателефонуйте або напишіть нам напряму — інженер БІТ підбере оптимальне рішення протипожежного захисту.</p>
+      <div class="cta-actions">
+        <a href="tel:+380957713110" class="btn btn-gold">Зателефонувати</a>
+        <a href="https://t.me/+380957713110" target="_blank" rel="noopener" class="btn btn-ghost">Написати в Telegram</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="logo-container">
+        <img src="images/logo.png" alt="BE Team">
+        <div class="brand-text">
+          <span class="brand-name">ТОВ «БІЛДІНГ ІНЖИНІРИНГ ТІМ»</span>
+        </div>
+      </div>
+      <p>Проєктування, монтаж та обслуговування систем протипожежного захисту в Києві та по всій Україні.</p>
+    </div>
+
+    <div class="footer-col">
+      <h4>Розділи</h4>
+      <ul>
+        <li><a href="#about">Про нас</a></li>
+        <li><a href="#services">Послуги</a></li>
+        <li><a href="#projects">Об'єкти</a></li>
+        <li><a href="#blog">Блог</a></li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Контакти</h4>
+      <ul>
+        <li>м. Київ, вул. Євгена Сверстюка, 21</li>
+        <li><a href="mailto:Office.baet@gmail.com">Office.baet@gmail.com</a></li>
+        <li><a href="tel:+380957713110">+380&nbsp;95&nbsp;771&nbsp;31&nbsp;10</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <span>© 2026 ТОВ «Білдінг Інжиніринг Тім»</span>
+    <span>Протипожежний захист під ключ</span>
+  </div>
+</footer>
+
+<button onclick="window.scrollTo({top:0, behavior:'smooth'})" id="scrollTopBtn" title="Вгору">↑</button>
+
+<div class="speed-dial" id="speedDial">
+  <a class="speed-dial-item wa" href="https://wa.me/380957713110" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M17.5 14.4c-.3-.1-1.6-.8-1.9-.9-.3-.1-.4-.1-.6.1-.2.3-.7.9-.8 1-.2.2-.3.2-.5.1-.3-.1-1.2-.4-2.3-1.4-.9-.8-1.4-1.7-1.6-2-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.4 0-.5C11 9.1 10.5 7.9 10.3 7.4c-.2-.5-.4-.4-.6-.4h-.5c-.2 0-.5.1-.7.3-.2.3-.9.9-.9 2.1 0 1.2.9 2.4 1 2.6.1.2 1.8 2.8 4.4 3.8.6.3 1.1.4 1.5.5.6.2 1.2.2 1.6.1.5-.1 1.6-.6 1.8-1.3.2-.6.2-1.2.2-1.3-.1-.1-.2-.2-.5-.3z"/><path d="M12 2a10 10 0 0 0-8.6 15L2 22l5.2-1.4A10 10 0 1 0 12 2z"/></svg>
+    <span>WhatsApp</span>
+  </a>
+  <a class="speed-dial-item tg" href="https://t.me/+380957713110" target="_blank" rel="noopener">
+    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M21.5 3.5L2.7 10.9c-1.2.5-1.2 1.2-.2 1.5l4.8 1.5 1.8 5.6c.2.6.4.8.9.8.5 0 .7-.2 1-.5l2.3-2.2 4.8 3.5c.9.5 1.5.2 1.7-.8l3.1-14.4c.3-1.2-.5-1.7-1.4-1.4z"/></svg>
+    <span>Telegram</span>
+  </a>
+  <a class="speed-dial-item call" href="tel:+380957713110">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+    <span>Подзвонити</span>
+  </a>
+  <button class="speed-dial-toggle" id="speedDialToggle" aria-label="Зв'язатися з нами" aria-expanded="false">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 5v14M5 12h14"/></svg>
+  </button>
+</div>
+
+<script>
+  // Marquee: clone the set until it comfortably exceeds viewport width,
+  // then double it — guarantees no empty gap on any screen size.
+  (function () {
+    const track = document.getElementById('marqueeTrack');
+    const original = track.querySelector('.marquee-set');
+    if (!track || !original) return;
+
+    const targetWidth = window.innerWidth * 1.5;
+    let safety = 0;
+    while (track.scrollWidth < targetWidth && safety < 30) {
+      track.appendChild(original.cloneNode(true));
+      safety++;
+    }
+    // Duplicate the whole (now wide-enough) block once to create an
+    // identical second half for the seamless -50% loop.
+    const currentSets = Array.from(track.children);
+    currentSets.forEach(set => track.appendChild(set.cloneNode(true)));
+  })();
+</script>
+
+<script src="js/aos.js"></script>
+<script>
+  AOS.init({ duration: 750, once: true, offset: 60, easing: 'ease-out-cubic' });
+</script>
+
+<script>
+  // Header scroll state
+  const header = document.getElementById('siteHeader');
+  const scrollProgress = document.getElementById('scrollProgress');
+  const scrollBtn = document.getElementById('scrollTopBtn');
+
+  window.addEventListener('scroll', () => {
+    const y = window.scrollY;
+    header.classList.toggle('scrolled', y > 40);
+    scrollBtn.style.display = y > 400 ? 'block' : 'none';
+
+    const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+    const pct = docHeight > 0 ? (y / docHeight) * 100 : 0;
+    scrollProgress.style.width = pct + '%';
+  });
+</script>
+
+<script>
+  // Mobile navigation toggle
+  const navToggle = document.getElementById('navToggle');
+  const mainNav = document.getElementById('mainNav');
+  navToggle.addEventListener('click', () => {
+    const isOpen = mainNav.classList.toggle('open');
+    navToggle.classList.toggle('active', isOpen);
+    navToggle.setAttribute('aria-expanded', isOpen);
+  });
+  mainNav.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      mainNav.classList.remove('open');
+      navToggle.classList.remove('active');
+      navToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
+</script>
+
+<script>
+  // Animated counters
+  const counters = document.querySelectorAll('.counter');
+  const counterObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        const el = entry.target;
+        const target = +el.getAttribute('data-target');
+        let count = 0;
+        const step = Math.max(1, Math.floor(target / 60));
+        const interval = setInterval(() => {
+          count += step;
+          if (count >= target) {
+            el.textContent = target;
+            clearInterval(interval);
+          } else {
+            el.textContent = count;
+          }
+        }, 30);
+        counterObserver.unobserve(el);
+      }
+    });
+  }, { threshold: 0.6 });
+  counters.forEach(counter => counterObserver.observe(counter));
+</script>
+
+<script>
+  // Project photo sliders (grid cards)
+  document.querySelectorAll('.project-slider-wrapper').forEach(wrapper => {
+    const slider = wrapper.querySelector('.project-slider');
+    const images = slider.querySelectorAll('img');
+    const dots = wrapper.querySelectorAll('.slider-dots span');
+    let index = 0;
+
+    const showImage = (i) => {
+      images.forEach((img, idx) => img.classList.toggle('active', idx === i));
+      dots.forEach((dot, idx) => dot.classList.toggle('active', idx === i));
+    };
+
+    wrapper.querySelector('.prev').addEventListener('click', () => {
+      index = (index - 1 + images.length) % images.length;
+      showImage(index);
+    });
+
+    wrapper.querySelector('.next').addEventListener('click', () => {
+      index = (index + 1) % images.length;
+      showImage(index);
+    });
+
+    showImage(index);
+  });
+</script>
+
+<script>
+  // Spotlight case-study slider (auto-rotate + dots)
+  const spotlightMedia = document.querySelector('.spotlight-media');
+  if (spotlightMedia) {
+    const images = spotlightMedia.querySelectorAll('img');
+    const dots = spotlightMedia.querySelectorAll('.spotlight-dots span');
+    let sIndex = 0;
+
+    const showSpotlight = (i) => {
+      images.forEach((img, idx) => img.classList.toggle('active', idx === i));
+      dots.forEach((dot, idx) => dot.classList.toggle('active', idx === i));
+    };
+
+    dots.forEach((dot, idx) => {
+      dot.addEventListener('click', () => { sIndex = idx; showSpotlight(sIndex); });
+    });
+
+    setInterval(() => {
+      sIndex = (sIndex + 1) % images.length;
+      showSpotlight(sIndex);
+    }, 4200);
+  }
+</script>
+
+<script>
+  // Speed-dial toggle
+  const speedDial = document.getElementById('speedDial');
+  const speedDialToggle = document.getElementById('speedDialToggle');
+  speedDialToggle.addEventListener('click', () => {
+    const isOpen = speedDial.classList.toggle('open');
+    speedDialToggle.setAttribute('aria-expanded', isOpen);
+  });
+  document.addEventListener('click', (e) => {
+    if (!speedDial.contains(e.target)) {
+      speedDial.classList.remove('open');
+      speedDialToggle.setAttribute('aria-expanded', 'false');
+    }
+  });
+</script>
+
+</body>
+</html>
